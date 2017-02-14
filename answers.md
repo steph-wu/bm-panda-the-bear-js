@@ -9,3 +9,7 @@
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use text())
 
   $('h1').first().text('Stephanie Wu')
+
+4. Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
+
+  $('#employment h3').text('Experience')
