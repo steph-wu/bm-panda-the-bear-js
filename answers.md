@@ -45,3 +45,7 @@
 12. Change the value attribute of the email field to "koalathebear@gmail.com".
 
   $('#email').attr('value', 'koalathebear@gmail.com')
+
+13. Change the value of the submit button on the contact form to "En garde!".
+
+  $('#submit').attr('value', 'En garde!')
