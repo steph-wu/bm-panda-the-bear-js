@@ -37,3 +37,7 @@
 10. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself."
 
   $('form input').first().attr('placeholder', 'Identify yourself')
+
+11. Give the name field a "value" attribute of "your nemesis".
+
+  $('form input').first().attr('value', 'Your nemesis')
