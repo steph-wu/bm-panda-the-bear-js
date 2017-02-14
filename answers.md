@@ -18,6 +18,10 @@
 
   $('#time-travel').parent().remove()
 
-6. Change the colour of the body. 
+6. Change the colour of the body.
 
   $('body').css('background-color', 'black')
+
+7. Change the colour used by the highlight class.
+
+  $('.highlight').css('color', 'red')
