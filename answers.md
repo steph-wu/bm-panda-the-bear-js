@@ -41,3 +41,7 @@
 11. Give the name field a "value" attribute of "your nemesis".
 
   $('form input').first().attr('value', 'Your nemesis')
+
+12. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+  $('#email').attr('value', 'koalathebear@gmail.com')
