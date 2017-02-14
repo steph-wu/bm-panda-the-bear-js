@@ -24,4 +24,8 @@
 
 7. Change the colour used by the highlight class.
 
-  $('.highlight').css('color', 'red')
+  $('.highlight').css('color', 'darkgreen')
+
+8. Change the font family of the h1 to 'monospace'.
+
+  $('h1').css('font-family', 'monospace')
