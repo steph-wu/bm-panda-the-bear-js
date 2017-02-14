@@ -13,3 +13,7 @@
 4. Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
 
   $('#employment h3').text('Experience')
+
+5. Panda the Bear is lying about their skills! Take the "time travel" skill off the page to satisfy your personal sense of justice. 
+
+  $('#time-travel').parent().remove()
