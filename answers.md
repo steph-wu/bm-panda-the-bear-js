@@ -29,3 +29,7 @@
 8. Change the font family of the h1 to 'monospace'.
 
   $('h1').css('font-family', 'monospace')
+
+9. Find a way to select the round icons in the sidebar and then change their colour.
+
+  $('.action-icon-bg').css('background-color', 'darkgreen')
