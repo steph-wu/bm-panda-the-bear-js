@@ -5,3 +5,7 @@
 2. Use the same approach to select the element that contains the photo of the sky and change the src attribute to another picture URL of your choosing.
 
   $('#left-image img').attr('src', 'http://cdn3-www.cattime.com/assets/uploads/2011/08/best-kitten-names-1.jpg')
+
+3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use text())
+
+  $('h1').first().text('Stephanie Wu')
