@@ -57,3 +57,20 @@
 15. Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
 
   for (var i = 0; i < 10; i++ ) { $('#right-image img').clone().insertAfter( $('.portfolio-container') ) };
+
+16. Add last updated to page
+
+  var listItem = document.createElement('li');
+  var leftSpan = document.createElement('span');
+  var lastUpdated = document.createTextNode('Page last updated on');
+  leftSpan.appendChild(lastUpdated);
+  listItem.appendChild(leftSpan);
+  var rightSpan = document.createElement('span');
+  var updateDate = document.lastModified;
+  var dateNode = document.createTextNode(updateDate);
+  rightSpan.appendChild(dateNode);
+  listItem.appendChild(rightSpan);
+
+jQuery
+
+  $('ul.bio-info').append(listItem);
