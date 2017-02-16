@@ -49,3 +49,9 @@
 13. Change the value of the submit button on the contact form to "En garde!".
 
   $('#submit').attr('value', 'En garde!')
+
+14. That drawing of Pikachu is really cute. Let’s duplicate it using clone() and insert it at the bottom of the page using insertAfter() or appendTo().
+
+  $('#right-image img').clone().insertAfter( $('.portfolio-container') )
+
+15. Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
