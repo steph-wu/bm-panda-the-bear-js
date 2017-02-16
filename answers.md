@@ -55,3 +55,5 @@
   $('#right-image img').clone().insertAfter( $('.portfolio-container') )
 
 15. Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
+
+  for (var i = 0; i < 10; i++ ) { $('#right-image img').clone().insertAfter( $('.portfolio-container') ) };
